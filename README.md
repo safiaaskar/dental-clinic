@@ -1,2 +1,2 @@
 # dental-clinc
-https://safiaaskar.github.io/dental-clinc/
+https://safiaaskar.github.io/dental-clinic/
