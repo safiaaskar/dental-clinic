@@ -1,0 +1,103 @@
+.home-about {
+    background-image: url(../images/woman-patient-dentist.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.home-about .overlay {
+    background-color: rgb(5 70 107 / 50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.home-about .title h1 {
+    position: relative;
+    color: #ffffffd1;
+    text-transform: capitalize;
+}
+
+.about-us {
+    padding-top: 5rem;
+}
+
+.about-us .row {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-us .col {
+    flex: 1 1 25rem;
+}
+
+.about-us .nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.about-us .nav a {
+    padding: 1rem;
+    border-bottom: 0.2rem solid rgb(0 165 205);
+    color: rgb(0 165 205);
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.about-us .nav a:hover {
+    color: #fff;
+    background-color: rgb(0 165 205);
+    transform: scale(1.1);
+}
+
+.about-us .col .tab {
+    margin-bottom: 2rem;
+}
+
+.about-us .col .tab h3 {
+    color: rgb(0 165 205);
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.about-us .col .tab p {
+    font-size: 0.85rem;
+    color: rgb(142 159 163 / 82%);
+    margin-bottom: 0.75rem;
+}
+
+.about-us .about-us-img {
+    max-width: 35%;
+}
+
+.about-us .about-us-img img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+@media (max-width:900px) {
+    .h-about {
+        position: fixed;
+    }
+
+    .about-us .row {
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px) {
+    .about-us .about-us-img {
+        max-width: 80%;
+    }
+}
